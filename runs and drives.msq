@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 23 22:17:44 EDT 2021"/>
+<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 23 22:20:46 EDT 2021"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -869,8 +869,8 @@
          301.0 
          276.0 
          251.0 
-         222.0 
-         112.0 
+         226.0 
+         201.0 
          176.0 
          151.0 
          126.0 
@@ -884,7 +884,7 @@
          37.0 
          35.0 
          33.0 
-         32.0 
+         31.0 
          28.0 
          25.0 
       </constant>
@@ -1080,10 +1080,10 @@
          30.0 
          50.0 
          70.0 
-         98.1 
-         110.4 
-         134.0 
-         152.4 
+         90.0 
+         110.0 
+         130.0 
+         150.0 
          170.0 
          180.0 
       </constant>
