@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 23 22:13:42 EDT 2021"/>
+<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Sun May 23 22:17:44 EDT 2021"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -63,7 +63,7 @@
 <constant name="injctl2_1">"Off"</constant>
 <constant name="injctl2_2">"Off"</constant>
 <constant digits="1" name="max_coil_dur" units="ms">2.997</constant>
-<constant digits="1" name="max_spk_dur" units="ms">1.5318</constant>
+<constant digits="1" name="max_spk_dur" units="ms">0.7326</constant>
 <constant digits="0" name="dwellAcc" units="ms">0.5994</constant>
 <constant cols="1" digits="1" name="dwellvolts" rows="6" units="V">
          6.0 
@@ -575,7 +575,7 @@
       </constant>
 <constant name="timing_flags">"Fixed timing"</constant>
 <constant name="use_prediction">"1st Deriv Prediction"</constant>
-<constant digits="1" name="crank_dwell" units="ms">7.992</constant>
+<constant digits="1" name="crank_dwell" units="ms">5.994</constant>
 <constant digits="1" name="crank_timing" units="degrees">10.0</constant>
 <constant digits="1" name="fixed_timing" units="degrees">10.0</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_SPACE_0_0" rows="4" units="RAW">
