@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Fri May 28 15:19:05 EDT 2021"/>
+<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Fri May 28 15:16:38 EDT 2021"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -1136,7 +1136,7 @@
 <constant digits="1" name="fc_tps" units="%">5.0</constant>
 <constant digits="1" name="fc_clt" units="°F">90.0</constant>
 <constant digits="1" name="fc_delay" units="s">1.5</constant>
-<constant name="tacho_opt80">"On"</constant>
+<constant name="tacho_opt80">"Off"</constant>
 <constant name="tacho_opt40">"Normal"</constant>
 <constant name="tacho_opt3f">"TACHOUT"</constant>
 <constant name="EAElagsource">"TPSdot"</constant>
