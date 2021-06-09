@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Jun 08 20:34:56 EDT 2021"/>
+<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Tue Jun 08 13:11:32 EDT 2021"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -151,10 +151,10 @@
          15.0 
       </constant>
 <constant cols="1" digits="1" name="maeBins" rows="4" units="ms">
-         0.8 
-         1.8 
-         2.5 
-         3.3 
+         1.2 
+         2.4 
+         3.6 
+         4.8 
       </constant>
 <constant cols="1" digits="0" name="iacstepTable" rows="10" units="steps">
          160.0 
@@ -243,7 +243,7 @@
          1540.0 
       </constant>
 <constant cols="1" digits="0" name="maeRates" rows="4" units="kPa/s">
-         60.0 
+         80.0 
          240.0 
          480.0 
          960.0 
