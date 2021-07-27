@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Jul 26 20:01:11 EDT 2021"/>
+<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Mon Jul 26 20:01:09 EDT 2021"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
