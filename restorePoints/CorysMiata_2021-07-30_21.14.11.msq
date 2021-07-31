@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Jul 30 23:33:00 EDT 2021"/>
+<bibliography author="TunerStudio MS 3.1.06 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Fri Jul 30 21:14:11 EDT 2021"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -281,7 +281,7 @@
 <constant digits="0" name="IACcrankxt" units="s">5.0</constant>
 <constant name="IACcurlim">"Hold current"</constant>
 <constant digits="3" name="injOpen" units="ms">1.3</constant>
-<constant digits="3" name="battFac" units="ms/v">0.2038337</constant>
+<constant digits="3" name="battFac" units="ms/v">0.1500003</constant>
 <constant name="OverBoostOption">"Fuel Cut"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="OverBoostOption_flexboost">"Off"</constant>
