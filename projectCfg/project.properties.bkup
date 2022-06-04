@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Sun Aug 01 01:48:49 EDT 2021
-#Sun Aug 01 01:48:49 EDT 2021
+#Last Saved on: Fri Jun 03 17:49:48 EDT 2022
+#Fri Jun 03 17:49:48 EDT 2022
 map_sample_dialogMAP\ Sample\ Settings_height=265
 coldAdvanceCold\ Advance_height=491
 dwellSettingsDwell\ Battery\ Correction_height=367
@@ -30,7 +30,7 @@ egoControlEGO\ Control_height=592
 primingPWPriming\ Pulse_Y=184
 primingPWPriming\ Pulse_X=437
 revlimiter2Rev\ Limiter_Y=172
-VeAnalyzeConsole.veTable1Tbl_horizontalSplitPos=199
+VeAnalyzeConsole.veTable1Tbl_horizontalSplitPos=197
 revlimiter2Rev\ Limiter_X=326
 nestedasePctAfterStart\ Enrichment\ (ASE)\ -\ Percent\ Adder_height=515
 fuelcalcsFuel\ Calculations\ Summary_height=870
@@ -39,7 +39,7 @@ combinedignitionIgnition\ Options\ /\ Wheel\ Decoder_height=682
 tachoTacho\ Output_width=364
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 coldAdvanceCold\ Advance_width=726
-VeAnalyzeConsole.veTable1Tbl_verticalSplitPos=539
+VeAnalyzeConsole.veTable1Tbl_verticalSplitPos=537
 veTable1TblFuel\ VE\ Table\ 1_height=422
 CommSettingBaud\ Rate=115200
 matBasedRetardMAT-Based\ Timing\ Retard_Y=198
@@ -77,7 +77,7 @@ knockSettingsKnock\ Sensor\ Settings_height=562
 pwmidle_target_curveClosed-Loop\ Idle\ Target\ RPMs_Y=231
 pwmidle_target_curveClosed-Loop\ Idle\ Target\ RPMs_X=565
 logFileDir=C\:\\Users\\cgord\\Documents\\CorysMiata\\DataLogs
-CommSettingDESKTOP-GKP3872CommDriver.RS232\ Serial\ InterfaceCom\ Port=COM5
+CommSettingDESKTOP-GKP3872CommDriver.RS232\ Serial\ InterfaceCom\ Port=COM6
 pwmidle_target_curveClosed-Loop\ Idle\ Target\ RPMs_height=398
 ecuConfigFile=mainController.ini
 nestedasePctAfterStart\ Enrichment\ (ASE)\ -\ Percent\ Adder_width=740
@@ -186,7 +186,7 @@ idle_voltage_comp_curvePWM\ Idle\ Voltage\ Compensation_Y=249
 fuelcalcsFuel\ Calculations\ Summary_Y=0
 boostctlSettingsBoost\ Control\ Settings_width=808
 fuelcalcsFuel\ Calculations\ Summary_X=382
-CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM5
+CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=COM6
 idle_voltage_comp_curvePWM\ Idle\ Voltage\ Compensation_X=613
 revlimiter2Rev\ Limiter_height=515
 refTable_002_txtY2=16.81
@@ -228,7 +228,7 @@ noisefiltering2Noise\ Filtering_X=498
 refTable_002_txtX2=4
 refTable_002_txtX1=1
 combinedCLidleClosed-Loop\ Idle\ Settings_width=763
-commPort=COM5
+commPort=COM6
 noisefiltering2Noise\ Filtering_width=603
 baudRate=115200
 matclt_curveMAT/CLT\ Correction_width=374
