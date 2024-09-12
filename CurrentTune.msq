@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Apr 30 17:56:59 EDT 2023"/>
+<bibliography author="TunerStudio MS 3.2.03 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Sep 11 22:02:49 EDT 2024"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
-<pcVariable name="tsCanId">"0"</pcVariable>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
 <pcVariable digits="0" name="rpmhigh" units="rpm">9000.0</pcVariable>
 <pcVariable digits="0" name="rpmwarn" units="rpm">3000.0</pcVariable>
@@ -784,11 +783,11 @@
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
          0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 30.0 33.0 35.0 37.0 40.0 41.0 
+         0.0 0.0 23.0 25.0 26.0 28.0 30.0 31.0 
+         0.0 0.0 34.0 37.0 40.0 44.0 44.0 46.0 
          0.0 0.0 45.0 49.0 53.0 55.0 59.0 61.0 
-         0.0 0.0 60.0 65.0 70.0 73.0 79.0 81.0 
-         0.0 0.0 60.0 65.0 70.0 73.0 79.0 81.0 
-         0.0 0.0 60.0 65.0 70.0 73.0 79.0 81.0 
+         0.0 0.0 45.0 49.0 53.0 55.0 59.0 61.0 
+         0.0 0.0 45.0 49.0 53.0 55.0 59.0 61.0 
       </constant>
 <constant cols="1" digits="1" name="boost_ctl_pwmtarg_tps_bins" rows="8" units="%">
          0.0 
@@ -1527,7 +1526,6 @@
 <constant digits="1" name="testint" units="ms">300.032</constant>
 <constant digits="0" name="testrpm" units="RPM">399.9573379</constant>
 <constant digits="3" name="testpw" units="ms">5.000328</constant>
-<constant digits="0" name="testinjcnt">1.0</constant>
 <constant name="testsel_inj">"Inj4/D"</constant>
 <constant name="testsel_coil">"CoilD"</constant>
 <constant cols="12" digits="1" name="advanceTable3" rows="12" units="deg">
