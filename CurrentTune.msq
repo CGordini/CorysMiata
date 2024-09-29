@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Apr 30 17:56:59 EDT 2023"/>
+<bibliography author="TunerStudio MS 3.2.03 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Sep 28 17:58:08 EDT 2024"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS2%2FExtra+3.4.4+release++20201006+18%3A17BST%28c%29KC%2FJSM%2FJB+++uSM" nPages="7" signature="MS2Extra comms342hM"/>
 <page>
-<pcVariable name="tsCanId">"0"</pcVariable>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
 <pcVariable digits="0" name="rpmhigh" units="rpm">9000.0</pcVariable>
 <pcVariable digits="0" name="rpmwarn" units="rpm">3000.0</pcVariable>
@@ -62,24 +61,24 @@
 <constant name="injctl">"Off"</constant>
 <constant name="injctl2_1">"Off"</constant>
 <constant name="injctl2_2">"Off"</constant>
-<constant digits="1" name="max_coil_dur" units="ms">2.997</constant>
+<constant digits="1" name="max_coil_dur" units="ms">1.9314</constant>
 <constant digits="1" name="max_spk_dur" units="ms">0.7326</constant>
 <constant digits="0" name="dwellAcc" units="ms">0.5994</constant>
 <constant cols="1" digits="1" name="dwellvolts" rows="6" units="V">
-         6.0 
          8.0 
          10.0 
          12.0 
          14.0 
          16.0 
+         18.0 
       </constant>
 <constant cols="1" digits="0" name="dwellcorr" rows="6" units="%">
-         250.0 
-         200.0 
-         168.0 
-         128.0 
-         102.0 
-         88.0 
+         228.0 
+         162.0 
+         126.0 
+         100.0 
+         84.0 
+         70.0 
       </constant>
 <constant name="PredOpt">"1st High RPM, 2nd Low"</constant>
 <constant digits="0" name="crankingRPM" units="RPM">350.0</constant>
@@ -575,7 +574,7 @@
       </constant>
 <constant name="timing_flags">"Use Table"</constant>
 <constant name="use_prediction">"No Prediction"</constant>
-<constant digits="1" name="crank_dwell" units="ms">5.994</constant>
+<constant digits="1" name="crank_dwell" units="ms">3.996</constant>
 <constant digits="1" name="crank_timing" units="degrees">5.0</constant>
 <constant digits="1" name="fixed_timing" units="degrees">10.0</constant>
 <constant cols="1" digits="0" name="UNALLOCATED_SPACE_0_0" rows="4" units="RAW">
