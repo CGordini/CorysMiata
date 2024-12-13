@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.2.05 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Dec 02 16:28:45 EST 2024"/>
+<bibliography author="TunerStudio MS 3.2.05 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Dec 12 15:14:51 EST 2024"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.5.1+release+++++20171006+16%3A30BST+%28c%29+JSM%2FKC+********" nPages="20" signature="MS3 Format 0566.05P"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -316,8 +316,8 @@
 <constant name="tacho_opt3f">"Tach Out"</constant>
 <constant digits="0" name="fc_ego_delay" units="s">2.0</constant>
 <constant name="tacho_opt80">"On"</constant>
-<constant name="tacho_optvar">"Variable"</constant>
-<constant name="tacho_opt40">"Half speed"</constant>
+<constant name="tacho_optvar">"Fixed"</constant>
+<constant name="tacho_opt40">"Normal"</constant>
 <constant digits="1" name="tacho_scale" units="%">150.0</constant>
 <constant name="feature3_tps">"Off"</constant>
 <constant name="feature3_aseunit">"Cycles"</constant>
@@ -1107,8 +1107,8 @@
 <constant digits="1" name="testinjPwmT" units="ms">1.040384</constant>
 <constant digits="0" name="testinjPwmPd" units="us">66.0</constant>
 <constant digits="0" name="testinjPwmP" units="%">30.0</constant>
-<constant name="testsel_inj">"InjB"</constant>
-<constant name="testsel_coil">"CoilA"</constant>
+<constant name="testsel_inj">"InjA"</constant>
+<constant name="testsel_coil">"CoilB"</constant>
 <constant digits="0" name="dbgtooth" units="tooth">0.0</constant>
 <constant digits="0" name="iacpostest" units="steps">99.0</constant>
 <constant digits="0" name="iachometest" units="steps">250.0</constant>
@@ -6201,7 +6201,6 @@
 <constant cols="1" digits="0" name="qfrtfielddata" rows="256">
          16384.0 
          16386.0 
-         16388.0 
          16390.0 
          16392.0 
          8203.0 
@@ -6212,29 +6211,30 @@
          16406.0 
          16408.0 
          16410.0 
-         16422.0 
          16424.0 
          16426.0 
-         16430.0 
-         16432.0 
          16434.0 
-         16436.0 
          16438.0 
-         16452.0 
          8270.0 
          8271.0 
          8272.0 
          16468.0 
          8444.0 
-         16684.0 
-         8522.0 
          16818.0 
-         16826.0 
-         16828.0 
-         8638.0 
          8639.0 
-         16860.0 
-         16862.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
          0.0 
          0.0 
          0.0 
@@ -6861,34 +6861,34 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="28" units="RAW">
-         149.0 
-         73.0 
-         16.0 
-         94.0 
-         201.0 
-         178.0 
-         34.0 
+         181.0 
+         249.0 
+         80.0 
+         126.0 
+         197.0 
+         182.0 
+         115.0 
          51.0 
-         64.0 
+         96.0 
          238.0 
-         72.0 
-         225.0 
-         135.0 
+         104.0 
+         161.0 
+         207.0 
          223.0 
          194.0 
-         179.0 
-         133.0 
-         160.0 
-         88.0 
-         64.0 
-         126.0 
-         8.0 
-         118.0 
-         253.0 
-         168.0 
-         17.0 
+         183.0 
          209.0 
-         81.0 
+         171.0 
+         88.0 
+         112.0 
+         126.0 
+         78.0 
+         118.0 
+         255.0 
+         239.0 
+         177.0 
+         219.0 
+         89.0 
       </constant>
 </page>
 <page number="16" size="1024">
