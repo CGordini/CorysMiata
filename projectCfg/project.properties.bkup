@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Tue Apr 22 21:20:51 EDT 2025
-#Tue Apr 22 21:20:51 EDT 2025
+#Last Saved on: Thu Apr 24 13:48:57 EDT 2025
+#Thu Apr 24 13:48:57 EDT 2025
 smallpwInjector\ Small\ Pulsewidths_Y=123
 smallpwInjector\ Small\ Pulsewidths_X=221
 nestedasePctAfterStart\ Enrichment\ (ASE)_Y=165
@@ -87,8 +87,8 @@ boostctlDutysBoost\ Control\ Duty\ 1_height=314
 outputtest_io_3Output\ Test\ Mode\ -\ I/O\ 3_height=490
 fuelpumpFuel\ Pump\ and\ Pressure\ Control_height=635
 idle_voltage_comp_curvePWM\ Idle\ Voltage\ Compensation_Y=249
-alternatorAlternator\ Control_height=707
 idle_voltage_comp_curvePWM\ Idle\ Voltage\ Compensation_X=613
+alternatorAlternator\ Control_height=707
 flexFuelSettingsFuel\ Sensor\ Settings_Y=143
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ Duty/Steps_width=448
 flexFuelSettingsFuel\ Sensor\ Settings_X=575
@@ -111,8 +111,8 @@ combinedCLidleClosed-Loop\ Idle\ Settings_X=451
 ms3_port_edit_wrap1Programmable\ On/Off\ Outputs\ 1_width=555
 combinedignitionIgnition\ Options\ /\ Wheel\ Decoder_height=699
 lastDisplayedTuneFile=Modified - CorysMiata_2025-04-01_16.37.28.msq
-VeAnalyzeConsole.veTable1Tbl_selectedDash=Standard
 AEpump_settingsAccel-Pump\ Accel\ Enrichment\ Settings_height=659
+VeAnalyzeConsole.veTable1Tbl_selectedDash=Standard
 flexFuelSettingsFuel\ Sensor\ Settings_height=574
 TrimTablePanel_inj_trim2Tbl_egoCorChannel=egocor1
 outputtest_io_3Output\ Test\ Mode\ -\ I/O\ 3_Y=185
@@ -133,8 +133,8 @@ fan_controlFan\ Control_X=624
 crsettingsCranking\ /\ Startup\ Settings_Y=204
 crsettingsCranking\ /\ Startup\ Settings_X=603
 smallpwInjector\ Small\ Pulsewidths_height=613
-WueAnalyzeConsole.wueAnalyzer_warmup_curve_selectedDash=Standard
 2DTable_veTable1Tbl_tableInitialDir=C\:\\Users\\cgord\\Desktop\\New Tune Stuff
+WueAnalyzeConsole.wueAnalyzer_warmup_curve_selectedDash=Standard
 fuelcalcsFuel\ Calculations\ Summary_height=870
 pwmidle_target_curve_showText=true
 pwmidle_crank_dutyorsteps_curveIdle\ Cranking\ Duty/Steps_Y=189
@@ -293,8 +293,8 @@ outputtest_io_1Output\ Test\ Mode\ -\ I/O_height=644
 pwmidle_target_curveClosed-Loop\ Idle\ Target\ RPMs_height=399
 idleAdvanceIdle\ Advance\ Settings_width=806
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
-crsettingsCranking\ /\ Startup\ Settings_width=394
 manifoldTempCorr2MAT\ Air\ Density\ Table_height=531
+crsettingsCranking\ /\ Startup\ Settings_width=394
 nestedwarmup_curveWarmup\ Enrichment\ (WUE)_width=739
 boostctlTargsBoost\ Control\ Targets\ 1_Y=273
 boostctlTargsBoost\ Control\ Targets\ 1_X=608
@@ -309,8 +309,8 @@ tcsettingsTraction\ Control\ Settings_Y=187
 tcsettingsTraction\ Control\ Settings_X=643
 injsettingsInjector\ Dead-Time_Y=135
 injsettingsInjector\ Dead-Time_X=242
-dashBoardFile=\\dashboard\\\\dashboard.dash
 ecuConfigFile=mainController.ini
-ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=209
+dashBoardFile=\\dashboard\\\\dashboard.dash
 dwellSettingsDwell\ Battery\ Correction_width=374
+ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=209
 ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_X=452

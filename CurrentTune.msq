@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.2.05 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Apr 24 13:48:56 EDT 2025"/>
+<bibliography author="TunerStudio MS 3.2.05 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Apr 24 16:33:01 EDT 2025"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.5.1+release+++++20171006+16%3A30BST+%28c%29+JSM%2FKC+********" nPages="20" signature="MS3 Format 0566.05P"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -1114,7 +1114,7 @@
 <constant digits="0" name="iachometest" units="steps">250.0</constant>
 <constant digits="0" name="iactest_0">0.0</constant>
 <constant name="flashlock">"Unlocked"</constant>
-<constant name="boost_ctl_settings_on2">"On"</constant>
+<constant name="boost_ctl_settings_on2">"Off"</constant>
 <constant name="boost_ctl_settings_cl2">"Open-loop"</constant>
 <constant name="boost_ctl_pins2">"Digital Frequency In 2"</constant>
 <constant digits="0" name="boost_ctl_Kp2" units="%">100.0</constant>
@@ -5498,21 +5498,23 @@
          -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 
          -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 
       </constant>
-<constant digits="0" name="vvt_tth1">255.0</constant>
-<constant digits="0" name="vvt_tth2">255.0</constant>
-<constant digits="0" name="vvt_tth3">255.0</constant>
-<constant digits="0" name="vvt_tth4">255.0</constant>
-<constant digits="1" name="vvt_coldpos1" units="degrees">-0.1</constant>
-<constant digits="1" name="vvt_coldpos2" units="degrees">-0.1</constant>
+<constant digits="0" name="vvt_tth1">24.0</constant>
+<constant digits="0" name="vvt_tth2">24.0</constant>
+<constant digits="0" name="vvt_tth3">24.0</constant>
+<constant digits="0" name="vvt_tth4">24.0</constant>
+<constant digits="1" name="vvt_coldpos1" units="degrees">0.0</constant>
+<constant digits="1" name="vvt_coldpos2" units="degrees">0.0</constant>
+<constant name="tclu_opt_vss">"Off"</constant>
 <constant name="tclu_opt_gear">"On"</constant>
 <constant name="tclu_outpin">"Off"</constant>
-<constant digits="0" name="tclu_gearmin">255.0</constant>
-<constant digits="1" name="tclu_delay" units="s">25.5</constant>
-<constant digits="0" name="tclu_vssmin" units="MPH">14659.52415</constant>
-<constant digits="1" name="tclu_tpsmin" units="%">-0.1</constant>
-<constant digits="1" name="tclu_tpsmax" units="%">-0.1</constant>
-<constant digits="1" name="tclu_mapmin" units="%">-0.1</constant>
-<constant digits="1" name="tclu_mapmax" units="%">-0.1</constant>
+<constant digits="0" name="tclu_gearmin">8.0</constant>
+<constant digits="1" name="tclu_delay" units="s">10.0</constant>
+<constant digits="0" name="tclu_vssmin" units="MPH">299.96829</constant>
+<constant digits="1" name="tclu_tpsmin" units="%">0.0</constant>
+<constant digits="1" name="tclu_tpsmax" units="%">0.0</constant>
+<constant digits="1" name="tclu_mapmin" units="%">0.0</constant>
+<constant digits="1" name="tclu_mapmax" units="%">0.0</constant>
+<constant name="vvt_opt5_add1">"Off"</constant>
 <constant name="vvt_opt5_add2">"Actual"</constant>
 <constant name="vvt_opt5_err">"No"</constant>
 <constant name="vvt_opt5_vvt1">"Exhaust"</constant>
@@ -5520,9 +5522,9 @@
 <constant name="vvt_opt5_vvt3">"Exhaust"</constant>
 <constant name="vvt_opt5_vvt4">"Exhaust"</constant>
 <constant digits="1" name="vvt_hold_duty_exh" units="%">99.96</constant>
-<constant digits="0" name="vvt_ctl_Kp_exh" units="%">255.0</constant>
-<constant digits="0" name="vvt_ctl_Ki_exh" units="%">255.0</constant>
-<constant digits="0" name="vvt_ctl_Kd_exh" units="%">255.0</constant>
+<constant digits="0" name="vvt_ctl_Kp_exh" units="%">200.0</constant>
+<constant digits="0" name="vvt_ctl_Ki_exh" units="%">200.0</constant>
+<constant digits="0" name="vvt_ctl_Kd_exh" units="%">200.0</constant>
 <constant digits="0" name="vvt_cam1tth1">255.0</constant>
 <constant digits="0" name="vvt_cam1tth2">255.0</constant>
 <constant digits="0" name="vvt_cam2tth1">255.0</constant>
@@ -5533,28 +5535,28 @@
 <constant digits="0" name="vvt_cam4tth2">255.0</constant>
 <constant name="vvt_opt6_freq">"12Hz"</constant>
 <constant cols="6" digits="0" name="als_rifuelcut" rows="6" units="%">
-         255.0 255.0 255.0 255.0 255.0 255.0 
-         255.0 255.0 255.0 255.0 255.0 255.0 
-         255.0 255.0 255.0 255.0 255.0 255.0 
-         255.0 255.0 255.0 255.0 255.0 255.0 
-         255.0 255.0 255.0 255.0 255.0 255.0 
-         255.0 255.0 255.0 255.0 255.0 255.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 
       </constant>
 <constant cols="1" digits="0" name="als_rirpms" rows="6" units="rpm">
-         65535.0 
-         65535.0 
-         65535.0 
-         65535.0 
-         65535.0 
-         65535.0 
+         9000.0 
+         9000.0 
+         9000.0 
+         9000.0 
+         9000.0 
+         9000.0 
       </constant>
 <constant cols="1" digits="0" name="als_ritpss" rows="6" units="%">
-         6553.5 
-         6553.5 
-         6553.5 
-         6553.5 
-         6553.5 
-         6553.5 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
+         100.0 
       </constant>
 <constant name="als_pwm_opt_freq">"11.1Hz"</constant>
 <constant digits="1" name="vvt_minclt" units="°F">-0.1</constant>
@@ -6191,668 +6193,6 @@
       </constant>
 </page>
 <page number="15" size="1024">
-<constant cols="1" digits="0" name="qfrtfielddata" rows="256">
-         16384.0 
-         16386.0 
-         16390.0 
-         16392.0 
-         8203.0 
-         8204.0 
-         16400.0 
-         16402.0 
-         16404.0 
-         16406.0 
-         16408.0 
-         16410.0 
-         16424.0 
-         16426.0 
-         16434.0 
-         16438.0 
-         8270.0 
-         8271.0 
-         8272.0 
-         8444.0 
-         16818.0 
-         8639.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="16" digits="1" name="ltt_table1" rows="16" units="%">
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-      </constant>
-<constant cols="1" digits="0" name="ltt_rpms" rows="16" units="RPM">
-         800.0 
-         900.0 
-         1480.0 
-         1900.0 
-         2266.0 
-         2700.0 
-         3100.0 
-         3480.0 
-         3920.0 
-         4360.0 
-         4800.0 
-         5233.0 
-         5600.0 
-         6020.0 
-         6300.0 
-         7000.0 
-      </constant>
-<constant cols="1" digits="1" name="ltt_loads" rows="16" units="%">
-         20.0 
-         30.0 
-         40.0 
-         60.0 
-         80.0 
-         100.0 
-         105.0 
-         120.0 
-         135.0 
-         150.0 
-         165.0 
-         180.0 
-         195.0 
-         210.0 
-         225.0 
-         240.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage" rows="148">
-         7.0 
-         7.0 
-         7.0 
-         7.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         10.0 
-         10.0 
-         10.0 
-         10.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         58.0 
-         0.0 
-         4.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         17.0 
-         106.0 
-         0.0 
-         106.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         20.0 
-         0.0 
-         0.0 
-         21.0 
-         0.0 
-         5.0 
-         0.0 
-         0.0 
-         59.0 
-         9.0 
-         0.0 
-         68.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         14.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         16.0 
-         100.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         255.0 
-         0.0 
-         5.0 
-         5.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_a" rows="8">
-         7.0 
-         7.0 
-         7.0 
-         7.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_b" rows="8">
-         10.0 
-         10.0 
-         10.0 
-         10.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_e" rows="8">
-         0.0 
-         0.0 
-         58.0 
-         0.0 
-         4.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_h" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_j" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_k" rows="8">
-         17.0 
-         106.0 
-         0.0 
-         106.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_m" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_p" rows="8">
-         0.0 
-         0.0 
-         20.0 
-         0.0 
-         0.0 
-         21.0 
-         0.0 
-         5.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_t" rows="8">
-         0.0 
-         0.0 
-         59.0 
-         9.0 
-         0.0 
-         68.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_ad0h" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_ad0l" rows="8">
-         14.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         16.0 
-         100.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_canin" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_canout" rows="16">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_canadc" rows="24">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_canpwm" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_pwmscl" rows="4">
-         255.0 
-         0.0 
-         5.0 
-         5.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_loop" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
-<constant cols="1" digits="0" name="portusage_s" rows="8">
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-         0.0 
-      </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="28" units="RAW">
          181.0 
          249.0 
@@ -9172,5 +8512,6 @@
 <userComments Comment="These are user comments that can be related to a particular setting or dialog.">
 <userComment name="egoport1" value=""/>
 <userComment name="ICISR_tmask" value=""/>
+<userComment name="boost_feats_tsw" value=""/>
 </userComments>
 </msq>
