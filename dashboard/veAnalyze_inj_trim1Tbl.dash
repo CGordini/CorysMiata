@@ -159,7 +159,7 @@
 <dashComp type="Gauge">
 <Value type="double">10.0</Value>
 <Dirty type="boolean">true</Dirty>
-<Title type="String">Air:Fuel Ratio1</Title>
+<Title type="String">Air:Fuel Ratio 1</Title>
 <BackgroundImageFileName type="String">IMG_ID_BezelgreyNarrow.png_0</BackgroundImageFileName>
 <FontSizeAdjustment type="int">1</FontSizeAdjustment>
 <CounterClockwise type="boolean">false</CounterClockwise>
@@ -214,8 +214,8 @@
 <Max type="double">19.4</Max>
 <Value type="double">10.0</Value>
 <Dirty type="boolean">true</Dirty>
-<LongClickAction type="String"/>
-<ShortClickAction type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <OutputChannel type="String">afr1</OutputChannel>
 <Id type="String"/>
 <Dirty type="boolean">true</Dirty>
@@ -224,12 +224,12 @@
 <RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.997</RelativeWidth>
 <ItalicFont type="boolean">false</ItalicFont>
-<RelativeY type="double">0.6686303387334315</RelativeY>
+<RelativeY type="double">0.6681666666666666</RelativeY>
 <AntialiasingOn type="boolean">true</AntialiasingOn>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
 <InvalidState type="boolean">false</InvalidState>
-<RelativeX type="double">0.0</RelativeX>
+<RelativeX type="double">0.0015</RelativeX>
 </dashComp>
 </gaugeCluster>
 </dsh>
